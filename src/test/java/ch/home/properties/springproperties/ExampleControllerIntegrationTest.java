@@ -23,7 +23,7 @@ class ExampleControllerIntegrationTest {
         mockMvc.perform(get("/translation")
                         .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().string("I want to {0} my {1}"));
+                .andExpect(content().string("I want to ${action} my ${program_name}"));
     }
 
 }
