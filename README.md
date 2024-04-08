@@ -1,5 +1,8 @@
 # Demo for spring properties with names placeholders instead of numbered
 
+## Blog
+https://viktorreinok.medium.com/how-to-improve-your-properties-game-in-your-i18-spring-application-with-more-meaningful-value-14b9d3f34159
+
 ## Motivation
 
 Old
@@ -13,9 +16,6 @@ New
 transation.1.en=I want to {action} my {program_name} 
 transation.1.de=Ich will mein {program_name} {action}
 ```
-
-...
-
 
 
 Refs:
